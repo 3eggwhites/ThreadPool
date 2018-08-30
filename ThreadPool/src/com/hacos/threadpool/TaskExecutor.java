@@ -6,7 +6,7 @@ public class TaskExecutor implements Runnable {
 	
 	BlockingQueue<Runnable> queue;
 	
-	public TaskExecutor(BlockingQueue queue) {
+	public TaskExecutor(BlockingQueue<Runnable> queue) {
 		this.queue = queue;
 	}
 
